@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg version = "1.1"
+
+baseProfile="full"
+
+xmlns = "http://www.w3.org/2000/svg"
+
+xmlns:xlink = "http://www.w3.org/1999/xlink"
+
+xmlns:ev = "http://www.w3.org/2001/xml-events"
+
+height = "400px"  width = "400px">
+
+<rect x="0" y="0" width="400" height="400"
+fill="black" stroke="none" stroke-width="0px" stroke-opacity="1"/>
+
+<style>
+<![CDATA[
+#letter {
+	animation: jumps 16000ms linear 1 normal forwards
+	}
+@keyframes jumps { 
+	0% {transform: translate(200px,200px)}
+	6% {transform: translate(200px,200px)}
+	25% {transform: translate(270px,130px)}
+	31% {transform: translate(270px,130px)}
+	50% {transform: translate(200px,60px)}
+	56% {transform: translate(200px,60px)}
+	75% {transform: translate(130px,130px)}
+	81% {transform: translate(130px,130px)}
+	100% {transform: translate(200px,200px)}
+}
+]]>
+
+</style>
+<g id="letter" transform="translate(0,0)">
+<g transform="scale(1,1) translate(-200,-200)">
+
+<path d="M 240, 280 C 240, 300, 240, 300, 240, 340,
+240, 340, 240, 290, 270, 280"
+style="stroke:yellow; stroke-width:1px; fill:none;"/>
+<path d="M 270, 340 C 240, 300, 240, 300, 240, 340"
+style="stroke:yellow; stroke-width:1px; fill:none;"/>
+
+</g>
+</g>
+
+</svg>

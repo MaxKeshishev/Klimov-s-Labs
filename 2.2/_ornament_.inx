@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<name>Ornament</name>
+	<id>ornament_</id>
+	<param name="number" type="int" min="1" max="1000" gui-text="Number of rapports:">10</param>
+	<param name="height" type="float" min="0.01" max="10000" gui-text="Height:">100.0</param>
+	<param name="weight" type="float" min="0.01" max="10000" gui-text="Weight:">100.0</param>
+	<effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu name="Render"/>
+		</effects-menu>
+	</effect>
+	<script>
+		<command location="inx" interpreter="python">_ornament_.py</command>
+	</script>
+</inkscape-extension>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>KOX</name>
+    <id>KOX</id>
+    <param name="l"     type="float"   min="10" max="1000" gui-text="Сторона снежинки">100.0</param>
+    <param name="x"    type="float"   min="0" max="1000" gui-text="X центра">100.0</param>
+    <param name="y"    type="float"   min="0" max="1000" gui-text="Y центра">100.0</param>
+    <param name="n"    type="int"   min="1" max="10000" gui-text="Глубина рекурсии">3</param>
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Render"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">KOX.py</command>
+    </script>
+</inkscape-extension>
